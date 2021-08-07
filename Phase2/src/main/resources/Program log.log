@@ -1,0 +1,10 @@
+2021-07-05 14:50:04.989 [JavaFX Application Thread] INFO  Graphic.Main - Program started!
+2021-07-05 14:50:05.281 [JavaFX Application Thread] INFO  Controller.DataBase.DataBase - Information loaded!
+2021-07-05 14:50:05.324 [JavaFX Application Thread] INFO  View.MainView - Scene changed to Login
+2021-07-05 14:50:09.651 [JavaFX Application Thread] INFO  View.MainView - Scene changed to Login
+2021-07-05 14:50:18.387 [JavaFX Application Thread] INFO  Controller.Pages.Login - a created account!
+2021-07-05 14:50:18.469 [JavaFX Application Thread] INFO  Controller.DataBase.DataBase - Changes saved!
+2021-07-05 14:50:18.471 [JavaFX Application Thread] INFO  View.MainView - Scene changed to MainPage
+2021-07-05 14:50:23.445 [JavaFX Application Thread] INFO  View.MainView - Scene changed to Settings
+2021-07-05 14:50:25.631 [JavaFX Application Thread] INFO  View.MainView - Scene changed to Settings
+2021-07-05 14:50:34.214 [JavaFX Application Thread] INFO  Controller.DataBase.DataBase - Changes saved!

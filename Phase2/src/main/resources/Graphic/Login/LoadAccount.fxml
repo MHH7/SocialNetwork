@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="257.0" prefWidth="471.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.LoginViewer">
+   <children>
+      <TextField fx:id="userNameText2" layoutX="166.0" layoutY="70.0" prefHeight="26.0" prefWidth="249.0" />
+      <TextField fx:id="passwordText2" layoutX="166.0" layoutY="128.0" prefHeight="26.0" prefWidth="250.0" />
+      <Label layoutX="49.0" layoutY="67.0" prefHeight="26.0" prefWidth="83.0" text="User Name" textAlignment="CENTER" />
+      <Label layoutX="49.0" layoutY="133.0" prefHeight="26.0" prefWidth="83.0" text="Password" textAlignment="CENTER" />
+      <Button layoutX="49.0" layoutY="175.0" mnemonicParsing="false" onAction="#loadAccount" prefHeight="26.0" prefWidth="367.0" text="Enter" />
+      <Button layoutX="49.0" layoutY="209.0" mnemonicParsing="false" onAction="#Return" prefHeight="26.0" prefWidth="367.0" text="Return" />
+   </children>
+</AnchorPane>

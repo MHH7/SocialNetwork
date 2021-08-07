@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="515.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Texts.Tweet.MainTweetViewer">
+   <children>
+      <ImageView id="imageBox" fx:id="imagebox" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="217.0" prefHeight="204.0" prefWidth="384.0" text="Label" />
+      <Button layoutX="109.0" layoutY="208.0" mnemonicParsing="false" onAction="#showComments" prefHeight="26.0" prefWidth="384.0" text="Show Comments" />
+      <Button layoutX="109.0" layoutY="248.0" mnemonicParsing="false" onAction="#addComment" prefHeight="26.0" prefWidth="384.0" text="Add Comment" />
+      <Button layoutX="109.0" layoutY="284.0" mnemonicParsing="false" onAction="#like" prefHeight="26.0" prefWidth="384.0" text="Like" />
+      <Button layoutX="109.0" layoutY="324.0" mnemonicParsing="false" onAction="#reTweet" prefHeight="26.0" prefWidth="384.0" text="Retweet" />
+      <Button layoutX="109.0" layoutY="359.0" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="384.0" text="Save" />
+      <Button layoutX="109.0" layoutY="398.0" mnemonicParsing="false" onAction="#forward" prefHeight="26.0" prefWidth="384.0" text="Forward" />
+      <Button layoutX="109.0" layoutY="472.0" mnemonicParsing="false" onAction="#Return" prefHeight="26.0" prefWidth="384.0" text="Return" />
+      <TextField fx:id="forwardTo" layoutX="505.0" layoutY="398.0" prefHeight="26.0" prefWidth="144.0" promptText="Forward to : " />
+      <Button layoutX="109.0" layoutY="435.0" mnemonicParsing="false" onAction="#Report" prefHeight="26.0" prefWidth="384.0" text="Report" />
+   </children>
+</AnchorPane>
