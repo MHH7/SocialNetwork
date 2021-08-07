@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="211.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Settings.PrivacySettingsViewer">
+   <children>
+      <Button layoutX="26.0" layoutY="21.0" mnemonicParsing="false" onAction="#Return" prefHeight="26.0" prefWidth="359.0" text="Return" />
+      <TextField fx:id="passwordText" layoutX="155.0" layoutY="119.0" prefHeight="26.0" prefWidth="230.0" />
+      <Button layoutX="25.0" layoutY="152.0" mnemonicParsing="false" onAction="#passwordChange" prefHeight="26.0" prefWidth="359.0" text="Change!" />
+      <Label layoutX="25.0" layoutY="124.0" prefHeight="18.0" prefWidth="116.0" text="New Passowrd" />
+      <Label fx:id="birthdatePT" layoutX="402.0" layoutY="13.0" prefHeight="18.0" prefWidth="290.0" />
+      <Button layoutX="702.0" layoutY="8.0" mnemonicParsing="false" onAction="#changeBirthdatePT" text="Change!" />
+      <Label fx:id="phoneNumberPT" layoutX="402.0" layoutY="49.0" prefHeight="18.0" prefWidth="290.0" text="Label" />
+      <Button layoutX="702.0" layoutY="44.0" mnemonicParsing="false" onAction="#changePhoneNumberPT" text="Change!" />
+      <Label fx:id="emailPT" layoutX="402.0" layoutY="83.0" prefHeight="18.0" prefWidth="290.0" text="Label" />
+      <Button layoutX="702.0" layoutY="78.0" mnemonicParsing="false" onAction="#changeEmailPT" text="Change!" />
+      <Label fx:id="lastSeenPT" layoutX="402.0" layoutY="119.0" prefHeight="18.0" prefWidth="290.0" text="Label" />
+      <Button layoutX="702.0" layoutY="114.0" mnemonicParsing="false" onAction="#changeLastSeenType" text="Change!" />
+      <Label fx:id="activity" layoutX="402.0" layoutY="155.0" prefHeight="18.0" prefWidth="290.0" text="Label" />
+      <Button layoutX="702.0" layoutY="150.0" mnemonicParsing="false" onAction="#changeActivityType" text="Change!" />
+      <Button layoutX="26.0" layoutY="57.0" mnemonicParsing="false" onAction="#setProfilePhoto" prefHeight="26.0" prefWidth="359.0" text="Set profile photo" />
+   </children>
+</AnchorPane>

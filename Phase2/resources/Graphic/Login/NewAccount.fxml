@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="519.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.LoginViewer">
+   <children>
+      <TextField fx:id="nameText" layoutX="162.0" layoutY="47.0" prefHeight="26.0" prefWidth="318.0" />
+      <TextField fx:id="userNameText1" layoutX="162.0" layoutY="90.0" prefHeight="26.0" prefWidth="318.0" />
+      <TextField fx:id="passwordText1" layoutX="162.0" layoutY="132.0" prefHeight="26.0" prefWidth="318.0" />
+      <TextField fx:id="birthDateText" layoutX="162.0" layoutY="177.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="63.0" layoutY="52.0" prefHeight="26.0" prefWidth="54.0" text="Name" />
+      <Label layoutX="63.0" layoutY="90.0" prefHeight="26.0" prefWidth="71.0" text="User Name" />
+      <Label layoutX="63.0" layoutY="132.0" prefHeight="26.0" prefWidth="71.0" text="Password" />
+      <Label layoutX="63.0" layoutY="177.0" prefHeight="26.0" prefWidth="71.0" text="Brth Date" />
+      <TextField fx:id="emailText" layoutX="162.0" layoutY="221.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="63.0" layoutY="221.0" prefHeight="26.0" prefWidth="71.0" text="Email" />
+      <TextField fx:id="phoneNumbertext" layoutX="162.0" layoutY="264.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="63.0" layoutY="264.0" prefHeight="26.0" prefWidth="85.0" text="Phone number" />
+      <TextField fx:id="IDText" layoutX="162.0" layoutY="304.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="63.0" layoutY="304.0" prefHeight="26.0" prefWidth="85.0" text="ID" />
+      <TextArea fx:id="bioText" layoutX="162.0" layoutY="340.0" prefHeight="72.0" prefWidth="318.0" />
+      <Label layoutX="63.0" layoutY="340.0" prefHeight="26.0" prefWidth="85.0" text="Bio" />
+      <Button layoutX="63.0" layoutY="426.0" mnemonicParsing="false" onAction="#createNewAccount" prefHeight="26.0" prefWidth="417.0" text="Register" />
+      <Button layoutX="63.0" layoutY="461.0" mnemonicParsing="false" onAction="#Return" prefHeight="26.0" prefWidth="418.0" text="Return" />
+   </children>
+</AnchorPane>
